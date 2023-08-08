@@ -50,7 +50,7 @@ nav ul li a:hover{
     text-decoration: none;
     border: 2px solid transparent;
     padding: 10px 25px;
-    border-radius: 30px;
+    border-radius:30px;
     transition: transform .4s;
 }
 .btn:hover{
@@ -97,9 +97,126 @@ border-radius: 30px;
     border:none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #f9004d;
+    background-color:#f9004d;
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top:6px;
     right: 6px;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+border-radius:40px;
+transition: .4s;
+cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 60px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: centermin-heigh;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra{
+    color:#fcfc;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+border-radius:40px;
+transition: .4s;
+cursor: pointer;
 }
